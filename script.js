@@ -68,6 +68,7 @@ function renderizarContactos(filtro = "") {
 function actualizarContador() {
   contador.textContent = contactos.length;
 }
+//funcion agregar contacto
 
 function agregarContacto() {
   const nombre = inputNombre.value.trim();
