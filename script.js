@@ -124,6 +124,6 @@ buscador.addEventListener("input", (e) => {
   renderizarContactos(e.target.value);
   
 });
-
+// llamada a las funciones
 renderizarContactos();
 actualizarContador();
