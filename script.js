@@ -119,7 +119,7 @@ inputTelefono.addEventListener("keydown", (e) => {
   if (e.key === "Enter") agregarContacto();
 });
 
-
+//buscador
 buscador.addEventListener("input", (e) => {
   renderizarContactos(e.target.value);
   
